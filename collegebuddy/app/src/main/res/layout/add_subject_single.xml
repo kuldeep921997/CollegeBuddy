@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.dell.collegebuddy.week_activity"
+    android:background="#ffffff"
+    >
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/viewallbtn"
+        android:layout_alignBottom="@+id/viewallbtn"
+        android:layout_alignParentEnd="true"
+        android:text="Add New Items To ListView" />
+
+    <TextView
+        android:id="@+id/tvdisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Enter Schedule"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/subjectName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvdisplay"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:hint="Enter Title"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/viewallbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="56dp"
+        android:layout_marginStart="19dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/taketime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/subjectName"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Starting Time" />
+
+    <Button
+        android:id="@+id/taketimeend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taketime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Ending Time" />
+
+</RelativeLayout>

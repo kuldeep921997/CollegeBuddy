@@ -1,0 +1,57 @@
+<android.support.v7.widget.CardView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:elevation="4dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/rellaymonday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.example.dell.collegebuddy.Utils.LetterImageView
+            android:id="@+id/ivLetter"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+
+
+        <TextView
+            android:id="@+id/tvSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/sttime"
+            android:text="@string/Subject_name"
+            android:textSize="29sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivLetter"
+            android:layout_marginStart="27dp"
+            android:layout_toEndOf="@+id/ivLetter"
+            android:text="@string/sttime"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/endtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/sttime"
+            android:layout_alignBottom="@+id/sttime"
+            android:layout_marginStart="19dp"
+            android:layout_toEndOf="@+id/sttime"
+            android:text="@string/endtime"
+            android:textSize="19sp" />
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/firebase"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <EditText
+        android:id="@+id/msgfrmfire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:ems="10"
+        android:hint="This message will be saved in firebase"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/msgfrmfire"
+        android:layout_below="@+id/msgfrmfire"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:hint="subject"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/sttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/subject"
+        android:layout_below="@+id/subject"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="starting time"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/endtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/sttime"
+        android:layout_below="@+id/sttime"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:hint="end time"
+        android:inputType="textPersonName" />
+
+
+    <TextView
+        android:id="@+id/showtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fire"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="63dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/fire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="45dp"
+        android:layout_marginStart="23dp"
+        android:text="fire" />
+
+    <Button
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/fire"
+        android:layout_alignBottom="@+id/fire"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="35dp"
+        android:text="show" />
+
+</RelativeLayout>

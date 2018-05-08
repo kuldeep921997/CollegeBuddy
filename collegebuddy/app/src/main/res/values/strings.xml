@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">College Buddy</string>
+    <string name="college_buddy">College Buddy</string>
+    <string name="welcome_to">Welcome To</string>
+    <string name="hii_you_are_here">HII YOU ARE HERE</string>
+    <string name="red_string">RED</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+    <string name="green">Green</string>
+    <string name="it_assumes">It assumes that week starts from Monday...</string>
+    <string name="Enter_Schedule">Enter Schedule</string>
+    <string name="here_you_can_enter_the_details_about_your_daily_schedule">Here you can enter the details about your daily schedule.</string>
+    <string name="number_of_days_of_college">Number of days of college :</string>
+    <string name="textview">TextView</string>
+    <string name="please_enter_no_of_college_days">Please enter no of college days</string>
+    <string name="number_of_subjects">Number of subjects</string>
+    <string name="number_of_practicals">Number of practicals</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+
+    <string name="timetable">Time Table</string>
+    <string name="description">description</string>
+    <string name="click_here">Click here</string>
+    <string name="todo">TODO</string>
+    <string name="Days">Days</string>
+    <string name="Subject_name">Subject name</string>
+    <string name="sttime">starting tm</string>
+    <string name="endtime">End Time</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+
+    <string-array name="Main">
+        <item> Scheduler </item>
+        <item> To-Do List </item>
+        <item> Subjects </item>
+        <item> Faculty </item>
+        <item> Notices </item>
+    </string-array>
+
+    <string-array name="Description">
+        <item> you can check your timetable here. </item>
+        <item> you can add and manipulate your To Do's here. </item>
+        <item> here you can view the subjects and add subject </item>
+        <item> you can add details about your faculty here. </item>
+        <item> you can customize and manipulate your timetable here.</item>
+    </string-array>
+
+    <string-array name="Week">
+        <item> Monday </item>
+        <item> Tuesday </item>
+        <item> Wednesday </item>
+        <item> Thursday </item>
+        <item> Friday </item>
+        <item> Saturday </item>
+        <item> Sunday </item>
+    </string-array>
+
+
+    <string name="edit_reminder_title">Task Reminder - Edit</string>
+    <string name="no_reminders">No Reminders Yet</string>
+    <string name="menu_insert">Add Reminder</string>
+    <string name="menu_delete">Delete Reminder</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="confirm">Save</string>
+    <string name="edit_reminder">Edit Reminder</string>
+    <string name="date">Reminder Date</string>
+    <string name="time">Reminder Time</string>
+
+    <!-- Toasts -->
+    <string name="task_saved_message">Task has been saved</string>
+
+    <!-- Notification Bar -->
+    <string name="notify_new_task_message">A task needs to be reviewed!</string>
+    <string name="notify_new_task_title">Task Reminder!</string>
+
+
+    <string name="pref_category_task_defaults_key">task_default_category</string>
+    <string name="pref_category_task_defaults_title">Task Title Default</string>
+    <string name="pref_task_title_key">default_reminder_title</string>
+    <string name="pref_task_title_dialog_title">Default Reminder Title</string>
+    <string name="pref_task_title_message">The default title for a reminder.</string>
+    <string name="pref_task_title_summary">Default title for reminders.</string>
+    <string name="pref_task_title_title">Default Reminder Title</string>
+
+    <string name="pref_category_datetime_key">date_time_default_category</string>
+    <string name="pref_category_datetime_title">Date Time Defaults</string>
+    <string name="pref_default_time_from_now_key">time_from_now_default</string>
+    <string name="pref_default_time_from_now_dialog_title">Time From Now</string>
+    <string name="pref_default_time_from_now_message">The default time from now that a new reminder should be set to.</string>
+    <string name="pref_default_time_from_now_summary">Sets the default time for a reminder.</string>
+    <string name="pref_default_time_from_now_title">Default Reminder Time</string>
+    <string name="pref_task_title_key_1">default title</string>
+    <string name="admin_page_text">HELLO this is the super Admin Page</string>
+    <string name="Logout">Logout</string>
+    <string name="HELLO">HELLO</string>
+    <string name="one">One</string>
+    <string name="three">Three</string>
+    <string name="two">Two</string>
+    <string name="Subject_type">Subject type</string>
+
+</resources>

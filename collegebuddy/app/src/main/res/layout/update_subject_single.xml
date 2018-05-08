@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#ffffff"
+    >
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/endingTime"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="25dp"
+        android:text="Add New Items To ListView" />
+
+    <EditText
+        android:id="@+id/startingTime"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/subjectName"
+        android:layout_alignBottom="@+id/subjectName"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="St.Time"
+        android:inputType="time" />
+
+    <TextView
+        android:id="@+id/tvdisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Enter Schedule"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/endingTime"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/startingTime"
+        android:layout_alignBottom="@+id/startingTime"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/startingTime"
+        android:ems="10"
+        android:hint="Ed.Time"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/subjectName"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvdisplay"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="56dp"
+        android:layout_toEndOf="@+id/endingTime"
+        android:ems="10"
+        android:hint="Subject Name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/viewallbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:text="Button" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnsubmit"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+
+
+    </LinearLayout>
+
+</RelativeLayout>

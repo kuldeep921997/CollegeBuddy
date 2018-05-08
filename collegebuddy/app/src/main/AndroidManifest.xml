@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.collegebuddy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".internetcheker"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".week_activity" />
+        <activity android:name=".getUserSchedule" />
+        <activity android:name=".schedule_monday" />
+        <activity android:name=".showMondaySchedule" />
+        <activity android:name=".scheduleDays.schedule_tuesday" />
+        <activity android:name=".showDaySchedule.showTuesdaySchedule" />
+        <activity android:name=".scheduleDays.schedule_wednesday" />
+        <activity android:name=".showDaySchedule.showWednesdaySchedule" />
+        <activity android:name=".scheduleDays.schedule_thursday" />
+        <activity android:name=".showDaySchedule.showThursdaySchedule" />
+        <activity android:name=".scheduleDays.schedule_friday" />
+        <activity android:name=".showDaySchedule.showFridaySchedule" />
+        <activity android:name=".scheduleDays.schedule_saturday" />
+        <activity android:name=".showDaySchedule.showSaturdaySchedule" />
+        <activity android:name=".scheduleDays.schedule_sunday" />
+        <activity android:name=".showDaySchedule.showSundaySchedule" />
+        <activity android:name=".update_Monday" />
+        <activity android:name=".updateSchedules.update_Tuesday" />
+        <activity android:name=".updateSchedules.update_Wednesday" />
+        <activity android:name=".updateSchedules.update_Thursday" />
+        <activity android:name=".updateSchedules.update_Friday" />
+        <activity android:name=".updateSchedules.update_Saturday" />
+        <activity android:name=".updateSchedules.update_Sunday" />
+        <activity android:name=".firebase" />
+        <activity android:name=".FirebaseActivities.online" />
+        <activity android:name=".FirebaseActivities.ShowMondayDetailsActivity" />
+        <activity android:name=".FirebaseActivities.LoginActivity" />
+        <activity android:name=".FirebaseActivities.MainActivity" />
+        <activity android:name=".FirebaseActivities.ResetPasswordActivity" />
+        <activity android:name=".FirebaseActivities.SignupActivity" />
+        <activity android:name=".FirebaseActivities.normalUsers" />
+        <activity android:name=".FirebaseActivities.SuperADMIN" />
+        <activity android:name=".FirebaseActivities.ResultActivity" />
+        <activity android:name=".FirebaseActivities.ShowTuesdayDetailsActivity" />
+        <activity android:name=".FirebaseActivities.ShowWednesdayDetailsActivity" />
+        <activity android:name=".FirebaseActivities.ShowThursdayDetailsActivity" />
+        <activity android:name=".FirebaseActivities.ShowFridayDetailsActivity" />
+        <activity android:name=".FirebaseActivities.ShowSaturdayDetailsActivity" />
+        <activity android:name=".FirebaseActivities.ShowSundayDetailsActivity" />
+        <activity android:name=".FirebaseActivities.firebase_super_user" />
+        <activity android:name=".FirebaseActivities.setdayschedule.thursdayschedule" />
+        <activity android:name=".FirebaseActivities.setdayschedule.fridayschedule" />
+        <activity android:name=".FirebaseActivities.setdayschedule.wednesdayschedule" />
+        <activity android:name=".FirebaseActivities.setdayschedule.saturdayschedule" />
+        <activity android:name=".FirebaseActivities.setdayschedule.sundayschedule" />
+        <activity android:name=".FirebaseActivities.setdayschedule.tuesdayschedule" />
+        <activity android:name=".FirebaseActivities.ShowSubjectDetailsActivity" />
+        <activity android:name=".SubjectFromFire" />
+        <activity android:name=".Actual_WebPageForTeachers" />
+        <activity android:name=".webPageForTeachers" />
+        <activity android:name=".Actual_Notices" />
+        <activity android:name=".Notices" />
+
+        <receiver
+            android:name=".ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <service
+
+            android:name=".FirebaseActivities.MyAndroidFirebaseMsgService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+
+            android:name=".FirebaseActivities.MyAndroidFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

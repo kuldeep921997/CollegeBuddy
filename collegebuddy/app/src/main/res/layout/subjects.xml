@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/secondpagelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textview10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp"
+        android:text="Sunject Name :"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textview11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textview10"
+        android:layout_marginTop="29dp"
+        android:text="Full Name :"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/subnameinsub"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textview10"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:textSize="18dp"
+        android:hint="Enter Subject Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/fullnameinsub"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textview11"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:hint="Enter Full Name Of Subject"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnview"
+        android:layout_alignBottom="@+id/btnview"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="17dp"
+        android:background="@android:color/holo_blue_bright"
+        android:elevation="@dimen/activity_horizontal_margin"
+        android:onClick="enterdata"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/btnview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="46dp"
+        android:layout_marginEnd="18dp"
+        android:background="@color/bg_login"
+        android:text="View" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textview11"
+        android:layout_marginTop="32dp"
+        android:textSize="18dp"
+        android:text="Subject Type :" />
+
+    <EditText
+        android:id="@+id/subjectType"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:textSize="18dp"
+        android:hint="Subject Type"
+        android:inputType="textPersonName" />
+</RelativeLayout>
